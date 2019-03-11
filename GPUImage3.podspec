@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author              = "Lorenzo Boaro"
   s.platform            = :ios, "12.0"
   s.source              = { :git => "https://github.com/allenlinli/KnobControl", :tag => "1.0.0" }
-  s.source_files        = "KnobControl"
+  s.source_files        = "**"
   s.swift_version       = "4.2"
 
 end
